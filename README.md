@@ -145,4 +145,44 @@ programaçao (isso vai além do java, serve para todas as linguagens de programa
 
 #### Certo já entendi que não devo ficar repetindo o mesmo código muitas vezes, mas como eu faço pra evitar isso então ??
 
+&nbsp;&nbsp;&nbsp;&nbsp; Certo entãp vamos por um fim a essa dúvida para isso existe a Herança como ja fora citado no
+inicio do nosso
+artigo: `A herança é um mecanismo da Orientação a Objeto que permite criar novas classes a partir de classes já existentes, aproveitando-se das características existentes na classe a ser estendida.`
+Ou seja, podemos utilizar as nossas informações já criadas em uma classe, em outra completamente diferente, e na nossa
+aplicação do banco isso será fundamental, pois existe muito código que ira se repetir como, por exemplo nossa
+classe `Client`:
 
+```  
+public class Client {
+   private String street;
+   private String city;
+   private String name;
+   private String postalCode;
+   private String Address;
+   private String email;
+   private String country;
+   private int    cpf;
+}
+
+//Constructor, Getters and Setters
+
+public class allInfos() {
+    System.out.println("Nome" + this.name + "Email" + this.email);
+}
+
+```
+&nbsp;&nbsp;&nbsp;&nbsp;Após a criação da nossa classe com todos seus atributos e métodos, elá já está pronta para ser herdada por outras classes e para isso usaremos a palavra reservada `extends`, por exemplo uma classe que represente um usuário, este pode ser herdado, pois um usuário é ou poderá se tornar um cliente do nosso banco então a classe usuário ficará assim:
+
+```
+public class Usuario extends Cliente {
+    //outros metodos
+    //Construtor, getters e setters
+} 
+
+```
+
+Desta forma, iremos garantir que nosso código ficará o mais limpo possivel 
+
+### 3° E por fim, Daremos uma cara nova a um metodo já existente:
+
+&nbsp;&nbsp;&nbsp;&nbsp; Chegamos ao fim do nosso artigo, e aqui também será o possivel fim da nossa aplicação se tratando de estruturação, o resto é tudo regra de negocio, 

@@ -171,7 +171,11 @@ public class allInfos() {
 }
 
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;Após a criação da nossa classe com todos seus atributos e métodos, elá já está pronta para ser herdada por outras classes e para isso usaremos a palavra reservada `extends`, por exemplo uma classe que represente um usuário, este pode ser herdado, pois um usuário é ou poderá se tornar um cliente do nosso banco então a classe usuário ficará assim:
+
+&nbsp;&nbsp;&nbsp;&nbsp;Após a criação da nossa classe com todos seus atributos e métodos, elá já está pronta para ser
+herdada por outras classes e para isso usaremos a palavra reservada `extends`, por exemplo uma classe que represente um
+usuário, este pode ser herdado, pois um usuário é ou poderá se tornar um cliente do nosso banco então a classe usuário
+ficará assim:
 
 ```
 public class Usuario extends Cliente {
@@ -181,8 +185,54 @@ public class Usuario extends Cliente {
 
 ```
 
-Desta forma, iremos garantir que nosso código ficará o mais limpo possivel 
+Desta forma, iremos garantir que nosso código ficará o mais limpo possivel
 
 ### 3° E por fim, Daremos uma cara nova a um metodo já existente:
 
-&nbsp;&nbsp;&nbsp;&nbsp; Chegamos ao fim do nosso artigo, e aqui também será o possivel fim da nossa aplicação se tratando de estruturação, o resto é tudo regra de negocio, 
+&nbsp;&nbsp;&nbsp;&nbsp; Já estamos nos encaminhando para o final do artigo, e com ele o `fim` (na verdade, não kkkkk)
+da nossa aplicação, restando apenas as regras de negócio, enfim, aqui trataremos do polimorfismo, algo também
+extremamente presente em nossa aplicação, pense comigo, em nossos banco uma conta pode efetuar diversas operações como:
+deposito, empréstimos e transferências, na teoria esses métodos são basicamente os mesmos, o que muda é a regra
+empregada dentro de cada um, aqui é um bom cenário para empregarmos o conceito de polimorfismo, por exemplo, temos uma
+classe responsável por depositar dinheiro na conta:
+
+```
+ private int operation(int quantity){
+ 
+    //Regras para efetuar o deposito
+    return quantity = quantity + this.CashInAccount;
+}
+ ```
+
+E temos que criar uma classe responsável por efetuar um saque veja que é basicamente a mesma classe o que muda é a
+lógica da mesma:
+
+```
+ private int operation(int quantity){
+ 
+    //Regras para efetuar o deposito
+    return quantity = quantity - this.CashInAccount;
+}
+ ```
+
+Aqui já estamos fazendo uso do polimorfismo, pois como já sabemos ele se dá na `Sobrescrita` de um método já existente
+em nosso código, falando do código, o java já ira nos ajudar a identificar onde ocorreu uma sobrescrita com o usa da
+notation `@Override` que significa que uma classe filha esta sobrescrevendo informações já existentes em uma classe mãe!
+
+#### Bom era isso, neste pequeno artigo introduzi a vocês os seguintes temas da OPP em java:
+
+- Herança
+- Polimorfismo
+- Encapsulament
+
+>Na pasta `SRC` estará toda nossa aplicação, com as classes e métodos já criados e testados, caso haja alguma dúvida
+não exite em abrir uma Issue estarei respondendo assim que possível.
+
+
+<br/>
+
+Referência:
+
+[
+https://www.devmedia.com.br/encapsulamento-polimorfismo-heranca-em-java/12991](https://www.devmedia.com.br/encapsulamento-polimorfismo-heranca-em-java/12991)
+

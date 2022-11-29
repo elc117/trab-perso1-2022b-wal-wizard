@@ -1,6 +1,6 @@
 # Uso de Encapsulamento, Polimorfismo e Herança no Java :rocket:  !
 
-### Aplicado para em um Banco Digital
+### Aplicado em um Banco Digital
 
 #### Diagrama de classes do projeto que será discutido:
 

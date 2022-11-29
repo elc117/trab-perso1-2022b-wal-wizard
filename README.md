@@ -133,7 +133,7 @@ public class Bank {
 
 ```
 
-### 2° Reaproveitando de informações
+### 2° Reaproveitando informações
 
 &nbsp;&nbsp;&nbsp;&nbsp; Chegamos a uma parte muito interessante deste tópico, não é exagero dizer que é a parte que
 mais gosto na Orientação a Objetos, Vamos introduzir um pequeno cenário ficticio, porém muito real, você está lá

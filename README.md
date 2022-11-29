@@ -1,5 +1,5 @@
 # Uso de Herança e Polimorfimo no Java !
-### Aplicado para em um Banco Digtal 
+### Aplicado para em um Banco Digital 
 
 
 #### Diagrama de classes do projeto que será discutido:

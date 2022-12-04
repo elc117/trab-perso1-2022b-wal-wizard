@@ -1,12 +1,12 @@
-# Uso de Encapsulamento, Polimorfismo e Herança no Java  !
+# Uso de Encapsulamento, Polimorfismo e Herança no Java :rocket:  !
 
-### Aplicado para em um Banco Digital
+### Aplicado em um Banco Digital
 
 #### Diagrama de classes do projeto que será discutido:
 
 ![Screenshot_2022-11-29_17-28-54](https://user-images.githubusercontent.com/82295321/204643696-7659e405-f077-4d2a-810d-7b7205ca037b.png)
 
-#### Mas afinal, O que seria Encapsulamento, Herança e Polimorfismo? Bom vamos lá:
+#### :thinking: Mas afinal, O que seria Encapsulamento, Herança e Polimorfismo? Bom vamos lá:
 
 ### Encapsulamento:
 
@@ -143,7 +143,7 @@ interessante na tecnologia que se encaixa bem neste momento, o DRY, do inglês `
 repita. Porque você iria ir contra todos os principios de umn código limpo e jogando no lixo as boas praticas de
 programaçao (isso vai além do java, serve para todas as linguagens de programação) então não se repita!
 
-#### Certo já entendi que não devo ficar repetindo o mesmo código muitas vezes, mas como eu faço pra evitar isso então ??
+#### Certo já entendi que não devo ficar repetindo o mesmo código muitas vezes, mas como eu faço pra evitar isso então :thinking: ??
 
 &nbsp;&nbsp;&nbsp;&nbsp; Certo entãp vamos por um fim a essa dúvida para isso existe a Herança como ja fora citado no
 inicio do nosso
